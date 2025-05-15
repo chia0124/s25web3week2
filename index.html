@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web III Week 2</title>
+</head>
+<body>
+    <main>
+        <!--forms require two attributes:
+        action is where the form will submit to (a # submit to the current page)
+        method is how the information is going to be sent 
+        the get method is unsecure
+        the post method is secure-->
+        <form action="#" method="get">
+            <p>What is the javascript keyword for the main HTML page?</p>
+            <div>
+                <label>Your answer:</label>
+                <!--input field requires a few attribute
+                    type - what kind of form field this is
+                    name - a label for the server
+                    id - links the field to the label-->
+                <input type="text" name="answer" id="answer">
+            </div>
+            <div id="feedback"></div>
+        </form>
+    </main>
+
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
